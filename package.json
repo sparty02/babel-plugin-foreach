@@ -1,5 +1,5 @@
 {
-  "name": "babel-foreach-transform",
+  "name": "babel-plugin-foreach",
   "version": "0.1.0",
   "description": "Transform Array.prototype.forEach calls to primitive for loops (for performance)",
   "main": "index.js",
@@ -8,18 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparty02/babel-foreach-transform"
+    "url": "https://github.com/sparty02/babel-plugin-foreach"
   },
   "keywords": [
     "babel",
     "plugin",
-    "transform",
     "foreach"
   ],
   "author": "Ryan Dunckel <sparty02@gmail.com> (http://me.sparty02.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sparty02/babel-foreach-transform/issues"
+    "url": "https://github.com/sparty02/babel-plugin-foreach/issues"
   },
-  "homepage": "https://github.com/sparty02/babel-foreach-transform"
+  "homepage": "https://github.com/sparty02/babel-plugin-foreach",
+  "dependencies": {
+    "babel-core": "^5.2.6"
+  },
+  "devDependencies": {
+    "babel": "^5.2.6"
+  }
 }
